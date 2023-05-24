@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px auto;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #382bcb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+#joke {
+    font-weight: bold;
+    margin: 3rem auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
